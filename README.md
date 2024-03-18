@@ -6,7 +6,7 @@
     <img src="Code/images/favicon.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">PocketPal</h3>
 
   <p align="center">
     Financial Companion made by teens for teens
