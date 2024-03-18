@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="Daksh" />
+    <link rel="shortcut icon" href="images/favicon.png" type="" />
+
+    <title>PocketPal-Sign UP</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link href="css/singup.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+<title>Sign Up</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+  </head>
+
+  <body>
+    <div id="section" class="section">
+      <div class="container">
+        <div class="row full-height justify-content-center">
+          <div class="col-12 text-center align-self-center py-5">
+            <div class="section pb-5 pt-5 pt-sm-2 text-center">
+              <div class="card-3d-wrap mx-auto">
+                <div class="card-3d-wrapper">
+                  <div class="card-back">
+                    <div class="center-wrap">
+                      <br /><br />
+                      <div class="section text-center">
+                        <h4 class="mb-4 pb-3">Sign Up</h4>
+                        <div class="form-group">
+                          <label>
+                            <input
+                              type="text"
+                              id="fullname"
+                              name="logname"
+                              class="form-style"
+                              placeholder="Username"
+                              autocomplete="off"
+                            />
+                            <i class="input-icon uil uil-user"></i>
+                          </label>
+                        </div>
+                        <div class="form-group mt-2">
+                          <label>
+                            <input
+                              id="signupemail"
+                              name="logemail"
+                              class="form-style"
+                              placeholder="Your Email"
+                              autocomplete="off"
+                            />
+                            <i class="input-icon uil uil-at"></i>
+                          </label>
+                        </div>
+                        <div class="form-group mt-2">
+                          <label>
+                            <input
+                              type="password"
+                              id="signuppassword"
+                              name="logpass"
+                              class="form-style"
+                              placeholder="Your Password"
+                              autocomplete="off"
+                            />
+                          </label>
+                        </div>
+                        <div class="form-group mt-2">
+                          <label>
+                            <input
+                              type="number"
+                              id="age"
+                              name="age"
+                              class="form-style"
+                              placeholder="Age"
+                              autocomplete="off"
+                            />
+                          </label>
+                        </div>
+                        <button
+                          id="signupSubmitBtn"
+                          class="btn mt-4"
+                          type="submit"
+                          onclick="register()"
+                        >
+                          Submit</button
+                        ><br /><br />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="section-3" class="section-3" style="visibility: hidden">
+      <div class="container">
+        <div class="row full-height justify-content-center">
+          <div class="col-12 text-center align-self-center py-5">
+            <div class="section pb-5 pt-5 pt-sm-2 text-center">
+              <h6 class="mb-0 pb-3"></h6>
+
+              <div class="card-3d-wrap mx-auto">
+                <div class="card-3d-wrapper">
+                  <div class="card-front">
+                    <div class="center-wrap">
+                      <div class="section text-center">
+                        <h4 id="wrong" class="mb-4 pb-3">Confirm OTP</h4>
+                        <div class="form-group">
+                          <label>
+                            <input
+                              type="number"
+                              id="otp"
+                              name="otp"
+                              class="form-style"
+                              placeholder="OTP"
+                              autocomplete="off"
+                              required
+                            />
+                            <i class="input-icon uil uil-at"></i>
+                          </label>
+                        </div>
+                        <button
+                          id="loginSubmitBtn"
+                          class="btn mt-4"
+                          onclick="confirm()"
+                        >
+                          Confirm
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/sign.js"></script>
+  </body>
+</html>

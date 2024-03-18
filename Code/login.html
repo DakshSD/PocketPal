@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="Daksh" />
+    <link rel="shortcut icon" href="images/favicon.png" type="" />
+
+    <title>PocketPal</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link href="css/login.css" rel="stylesheet" />
+    <title>Login</title>
+  </head>
+
+  <body>
+    <div id="section-1" class="section">
+      <div class="container">
+        <div class="row full-height justify-content-center">
+          <div class="col-12 text-center align-self-center py-5">
+            <div class="section pb-5 pt-5 pt-sm-2 text-center">
+              <h6 class="mb-0 pb-3"></h6>
+
+              <div class="card-3d-wrap mx-auto">
+                <div class="card-3d-wrapper">
+                  <div class="card-front">
+                    <div class="center-wrap">
+                      <div class="section text-center">
+                        <h4 id="check" class="mb-4 pb-3">Log In</h4>
+                        <div class="form-group">
+                          <label>
+                            <input
+                              type="email"
+                              id="logemail"
+                              name="logemail"
+                              class="form-style"
+                              placeholder="Email"
+                              autocomplete="off"
+                              required
+                            />
+                            <i class="input-icon uil uil-at"></i>
+                          </label>
+                        </div>
+                        <div class="form-group mt-2">
+                          <label>
+                            <input
+                              type="password"
+                              name="logpass"
+                              id="password"
+                              class="form-style"
+                              placeholder="Password"
+                              autocomplete="off"
+                              onkeydown="return (event.keyCode !== 32);"
+                              required
+                            />
+                            <i class="input-icon uil uil-lock-alt"></i>
+                          </label>
+                        </div>
+                        <button
+                          id="loginSubmitBtn"
+                          class="btn mt-4"
+                          onclick="login()"
+                        >
+                          Submit
+                        </button>
+                        <p class="mb-0 mt-4 text-center">
+                          <a class="link" onclick="redirect()"
+                            >Forgot your password?</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="section-2" class="section-2" style="visibility: hidden">
+      <div class="container">
+        <div class="row full-height justify-content-center">
+          <div class="col-12 text-center align-self-center py-5">
+            <div class="section pb-5 pt-5 pt-sm-2 text-center">
+              <h6 class="mb-0 pb-3"></h6>
+
+              <div class="card-3d-wrap mx-auto">
+                <div class="card-3d-wrapper">
+                  <div class="card-front">
+                    <div class="center-wrap">
+                      <div class="section text-center">
+                        <h4 id="remind" class="mb-4 pb-3">Forgot Password</h4>
+                        <div class="form-group">
+                          <label>
+                            <input
+                              type="email"
+                              id="femail"
+                              name="femail"
+                              class="form-style"
+                              placeholder="Email"
+                              autocomplete="off"
+                              required
+                            />
+                            <i class="input-icon uil uil-at"></i>
+                          </label>
+                        </div>
+                        <button
+                          id="loginSubmitBtn"
+                          class="btn mt-4"
+                          onclick="send();"
+                        >
+                          Send
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="section-3" class="section-3" style="visibility: hidden">
+      <div class="container">
+        <div class="row full-height justify-content-center">
+          <div class="col-12 text-center align-self-center py-5">
+            <div class="section pb-5 pt-5 pt-sm-2 text-center">
+              <h6 class="mb-0 pb-3"></h6>
+
+              <div class="card-3d-wrap mx-auto">
+                <div class="card-3d-wrapper">
+                  <div class="card-front">
+                    <div class="center-wrap">
+                      <div class="section text-center">
+                        <h4 id="wrong" class="mb-4 pb-3">Confirm OTP</h4>
+                        <div class="form-group">
+                          <label>
+                            <input
+                              type="number"
+                              id="otp"
+                              name="otp"
+                              class="form-style"
+                              placeholder="OTP"
+                              autocomplete="off"
+                              required
+                            />
+                            <i class="input-icon uil uil-at"></i>
+                          </label>
+                        </div>
+                        <button
+                          id="loginSubmitBtn"
+                          class="btn mt-4"
+                          onclick="confirm()"
+                        >
+                          Confirm
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>
