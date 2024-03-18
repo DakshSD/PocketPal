@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/DakshSD/PocketPal">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/favicon.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Project Title</h3>
@@ -94,7 +94,9 @@ Before you begin, ensure you have met the following requirements:
    npm install cors
    ```
 3. Sart the program by turning on server.js
-   ```node server.js
+   ```sh
+   node server.js
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
