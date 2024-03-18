@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/DakshSD/PocketPal">
-    <img src="images/favicon.png" alt="Logo" width="80" height="80">
+    <img src="Code/images/favicon.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Project Title</h3>
