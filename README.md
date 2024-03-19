@@ -92,6 +92,7 @@ Before you begin, ensure you have met the following requirements:
    npm install express
    npm install body-parser
    npm install cors
+   npm install node-mailer
    ```
 3. Sart the program by turning on server.js
    ```sh
